@@ -60,3 +60,4 @@ class Test_Weddriver():
         assert self.driver.find_element(By.CSS_SELECTOR, 'span.new-price').text == 'R$ 59,99'
         assert(self.driver.find_element(By.CSS_SELECTOR, 'span.new-price').text, 'R$ 59,99')
 
+<span class="cor-principal valor">R$ 0,00</span>
